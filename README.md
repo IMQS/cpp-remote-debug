@@ -2,6 +2,7 @@
 Helper scripts and documentation for remote debugging C++ code
 
 Basic steps for debugging C++ code in production:
+
 1. Install the `Windows Debugging Tools, by installing the Windows SDK, and ticking just that option
 2. Launch windbg as administrator
 3. Set symbol server path to something like `srv*c:\debug-symbols*\\tsclient\c\temp\DebugSymbols`
